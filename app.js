@@ -17,7 +17,7 @@ function getData() {
             let output = "<h2><center>Get User Data</center></h2>";
 
             //Get Data Loop Through
-            author.forEach(function (lists) {
+            author.forEach((lists) => {
                 output += `
                 <div class="container">
                     <div class="card mt-4 bg-light">
